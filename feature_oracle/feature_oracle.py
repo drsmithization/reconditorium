@@ -10,6 +10,7 @@ import scipy as sp
 import scikits.bootstrap as bootstrap
 
 from learners.logistic_regression import LogisticRegression
+from libsvm_format import read_libsvm
 
 
 class InputDataError(Exception):
@@ -27,6 +28,16 @@ def take_differences(x, y, learner, exclude):
     return a - b, a
 
 
+def read_data(filename, fmt, assessment):
+    if fmt == "csv":
+        return pd.read_csv(filename)
+    elif fmt == "libsvm":
+        with open(filename) as inp:
+            return read_libsvm(inp, assessment)
+    else:
+        raise InputDataError("unknown format {0}".format(fmt))
+
+
 def main():
     argparser = argparse.ArgumentParser(description="Evaluate feature profit.")
     argparser.add_argument("-p", "--pool",
@@ -41,11 +52,14 @@ def main():
     argparser.add_argument("-t", "--test",
                            dest="test",
                            action="append")
+    argparser.add_argument("-F", "--format",
+                           dest="format",
+                           default="csv")
     args = argparser.parse_args()
 
     try:
         try:
-            data = pd.read_csv(args.pool)
+            data = read_data(args.pool, args.format, args.assessment)
             data = shuffle_data(data)
         except Exception as err:
             raise InputDataError("cannot read data ({0})".format(err))
@@ -70,8 +84,8 @@ def main():
         print "mean diff: {0:.4f}".format(differences.mean())
         print "WX-test p-value: {0}".format(p_value)
 
-        CIs = bootstrap.ci(data=differences, statfunction=sp.mean)
-        print "Bootstrapped 95% confidence intervals (mean diff)\n  Low:", CIs[0], "\n  High:", CIs[1]
+        cis = bootstrap.ci(data=differences, statfunction=sp.mean)
+        print "Bootstrapped 95% confidence intervals (mean diff)\n  Low:", cis[0], "\n  High:", cis[1]
 
         print "\nscores by fold:"
         print "fold base       diff"
