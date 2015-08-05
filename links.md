@@ -19,8 +19,15 @@
 * [The JSF vehicle C++ Coding Standards](http://www.stroustrup.com/JSF-AV-rules.pdf)
 * [Google C++ Style Guide](https://google-styleguide.googlecode.com/svn/trunk/cppguide.html)
 
+#### Books
+* [Advanced C and C++ Compiling](http://www.amazon.com/Advanced-C-Compiling-Milan-Stevanovic/dp/1430266678)
+* [Effective Modern C++](http://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
 
 ## Tools
 #### GDB
 * [GDB Cheat Sheet](http://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 * [Beej's Quick Guide to GDB](http://beej.us/guide/bggdb/)
+#### Valgrind
+
+#### Static Checks
+* [Clang Static Analyzer](http://clang-analyzer.llvm.org/)
