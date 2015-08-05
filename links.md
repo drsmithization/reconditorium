@@ -15,6 +15,6 @@
 * Meyers: [Universal References in C++11](https://isocpp.org/blog/2012/11/universal-references-in-c11-scott-meyers)
 * [C++ Rvalue References Explained](http://thbecker.net/articles/rvalue_references/section_01.html)
 
-#### Styleguide
+#### Style Guide
 * [The JSF vehicle C++ Coding Standards](http://www.stroustrup.com/JSF-AV-rules.pdf)
 * [Google C++ Style Guide](https://google-styleguide.googlecode.com/svn/trunk/cppguide.html)
