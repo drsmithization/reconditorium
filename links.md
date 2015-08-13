@@ -23,6 +23,7 @@
 #### Books
 * [Advanced C and C++ Compiling](http://www.amazon.com/Advanced-C-Compiling-Milan-Stevanovic/dp/1430266678)
 * [Effective Modern C++](http://www.amazon.com/Effective-Modern-Specific-Ways-Improve/dp/1491903996)
+* [C++ Coding Standards: 101 Rules, Guidelines, and Best Practices](http://www.amazon.com/Coding-Standards-Rules-Guidelines-Practices/dp/0321113586)
 
 ## Tools
 #### GDB
