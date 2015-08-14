@@ -34,3 +34,8 @@
 
 #### Static Checks
 * [Clang Static Analyzer](http://clang-analyzer.llvm.org/)
+* 
+
+## Math
+#### Books
+* [Computers and Intractability; A Guide to the Theory of NP-Completeness](http://www.amazon.com/M-Garey-Computers-Intractability-NP-Completeness/dp/B008UYN2BC)
