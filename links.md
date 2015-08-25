@@ -34,8 +34,18 @@
 
 #### Static Checks
 * [Clang Static Analyzer](http://clang-analyzer.llvm.org/)
-* 
 
 ## Math
 #### Books
 * [Computers and Intractability; A Guide to the Theory of NP-Completeness](http://www.amazon.com/M-Garey-Computers-Intractability-NP-Completeness/dp/B008UYN2BC)
+
+## DevEnv
+#### Editors
+* [My Vim setup](https://github.com/drsmithization/dotvim)
+
+#### Windows
+* [ConEmu](https://github.com/Maximus5/ConEmu)
+* [Rapid Environment Editor](http://www.rapidee.com/en/about)
+
+#### Python
+* [Anaconda](http://continuum.io/downloads)
