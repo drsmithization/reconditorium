@@ -49,3 +49,7 @@
 
 #### Python
 * [Anaconda](http://continuum.io/downloads)
+
+## Data
+#### Public Datasets
+* http://www.datasciencecentral.com/profiles/blogs/great-github-list-of-public-data-sets
