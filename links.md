@@ -52,4 +52,4 @@
 
 ## Data
 #### Public Datasets
-* http://www.datasciencecentral.com/profiles/blogs/great-github-list-of-public-data-sets
+* https://github.com/caesar0301/awesome-public-datasets
