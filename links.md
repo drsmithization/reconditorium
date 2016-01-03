@@ -9,6 +9,12 @@
 #### Search
 * Disjoint sets union: [Sedgewick](http://algs4.cs.princeton.edu/15uf/)
 
+## Computer Vision
+#### OpenCV
+* [Install OpenCV-Python in Windows](http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html#install-opencv-python-in-windows)
+
+#### Papers
+* [SVMs for Histogram-Based Image Classification](http://olivier.chapelle.cc/pub/tnn99.pdf)
 
 ## C++
 #### Rvalues, Move Semantics
