@@ -15,6 +15,10 @@ Install [MacPorts](https://www.macports.org), don't use Brew.
 
 ### Editors
 [my .vim repository](https://github.com/drsmithization/dotvim)
+```bash
+$ git clone --recursive git://github.com/drsmithization/dotvim.git ~/.vim
+$ ln -s ~/.vim/.vimrc ~/.vimrc
+```
 
 ### Terminal
 #### Bash 
