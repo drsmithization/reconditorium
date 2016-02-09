@@ -32,6 +32,26 @@ function xman {
 
 export -f xman
 ```
+Notifications:
+```bash
+function notify() {
+    osascript -e "display notification \"$1\" with title \"$2\""
+}
+
+function nwr() {
+    eval $@
+    if [ $? -eq 0 ]; then
+        notify "$*" "success"
+    else
+        notify "$*" "fail"
+    fi
+    tput bel
+}
+
+export -f notify
+export -f nwr
+```
+
 Coloured ls:
 ```bash
 alias ls='ls -G'
