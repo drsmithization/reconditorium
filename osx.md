@@ -4,6 +4,9 @@ Install [MacPorts](https://www.macports.org), don't use Brew.
 
 ### XCode
 
+### Editors
+[my .vim repository](https://github.com/drsmithization/dotvim)
+
 ### Terminal
 #### 
 #### misc
