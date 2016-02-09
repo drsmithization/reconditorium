@@ -1,4 +1,13 @@
 ## Dev Stuff
+### Key Generation
+```bash
+$ ssh-keygen -t rsa -b 4096 -C "dkuznetsov@yandex.ru"
+```
+### Git
+```bash
+$ git config --global credential.helper osxkeychain
+```
+
 ### MacPorts
 Install [MacPorts](https://www.macports.org), don't use Brew.
 
@@ -8,7 +17,7 @@ Install [MacPorts](https://www.macports.org), don't use Brew.
 [my .vim repository](https://github.com/drsmithization/dotvim)
 
 ### Terminal
-#### 
+#### Bash 
 #### misc
 ```bash
 function xman {
@@ -20,6 +29,13 @@ export -f xman
 Coloured ls:
 ```bash
 alias ls='ls -G'
+```
+
+### Compilers and Tools
+```bash
+$ sudo port install gcc5
+$ sudo port select --set gcc mp-gcc5
+$ sudo port install g95
 ```
 
 ### Python
