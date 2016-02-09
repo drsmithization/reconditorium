@@ -35,6 +35,11 @@ Coloured ls:
 alias ls='ls -G'
 ```
 
+Change hostname:
+```bash
+$ sudo scutil --set HostName mymac
+```
+
 ### Compilers and Tools
 ```bash
 $ sudo port install gcc5
