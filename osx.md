@@ -21,6 +21,8 @@ $ ln -s ~/.vim/.vimrc ~/.vimrc
 ```
 
 ### Terminal
+* Install [iTerm2](https://www.iterm2.com)
+
 #### Bash 
 #### misc
 ```bash
