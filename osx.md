@@ -4,6 +4,21 @@ Install [MacPorts](https://www.macports.org), don't use Brew.
 
 ### XCode
 
+### Terminal
+#### 
+#### misc
+```bash
+function xman {
+    man -t "$@" | open -f -a /Applications/Preview.app
+}
+
+export -f xman
+```
+Coloured ls:
+```bash
+alias ls='ls -G'
+```
+
 ### Python
 1) first, install proper Python 2.7, pip and virtualenv:
 ```bash
